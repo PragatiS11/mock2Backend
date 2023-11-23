@@ -2,26 +2,34 @@
 {
   "freelancers": [
     {
-      "id": 1,
-      "name": "John Doe",
-      "email": "john@example.com",
-      "password": "password",
-      "profession": "Web Developer",
-      "skills": ["HTML", "CSS", "JavaScript"],
-      "hourly_rate": 25,
-      "profile_picture": "profile1.jpg",
-			"isBooked" : false
+    "name": "John",
+    "email": "john@example.com",
+    "password": "password",
+    "profession": "Web Developer",
+    "hourly_rate": 25,
+    "image": "https://imageio.forbes.com/specials-images/imageserve/609946db7c398a0de6c94893/Mid-Adult-Female-Entrepreneur-With-Arms-Crossed-/960x0.jpg?height=473&width=711&fit=bounds",
+    "isBooked": false,
+    "id": 3
     },
     {
-      "id": 2,
-      "name": "Jane Smith",
-      "email": "jane@example.com",
-      "password": "password",
-      "profession": "Graphic Designer",
-      "skills": ["Photoshop", "Illustrator"],
-      "hourly_rate": 30,
-      "profile_picture": "profile2.jpg",
-			"isBooked" : true
+    "name": "Jane Smith",
+    "email": "jane@example.com",
+    "password": "password",
+    "profession": "Graphic Designer",
+    "hourly_rate": 30,
+    "image": "https://images.squarespace-cdn.com/content/v1/572e050c4d088ea3a8f0ac9d/1572711304319-K2K7Y2PKAW0QVJLQGVW7/Atlanta-Professional-Headshots-1.jpg",
+    "isBooked": false,
+    "id": 4
+    },
+    {
+    "name": "Sam",
+    "image": "https://images.squarespace-cdn.com/content/v1/592738c58419c2fe84fbdb81/1515457803870-4HA5BU3QQY2DXLR0LFVB/DBS_StudentLinkedInAlex.jpg?format=1000w",
+    "email": "bruce@wayne.com",
+    "password": "12232",
+    "profession": "student",
+    "hourly_rate": "50",
+    "isBooked": false,
+    "id": 5
     }
-  ]
+    ]
 }
